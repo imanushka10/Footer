@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Footer from "./Footer";
-
+import SignupPage from "./SignupPage/Signuppage";
+import "./SignupPage/Signup.css";
 ReactDOM.render(
   <React.StrictMode>
-    <Footer />
+    <SignupPage />
   </React.StrictMode>,
   document.getElementById("root")
 );
